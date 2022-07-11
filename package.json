@@ -1,0 +1,47 @@
+{
+  "name": "algorithms-and-data-structures-with-typescript",
+  "version": "0.0.1",
+  "description": "Fundamental computer science algorithms and data structures implemented in TypeScript",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build",
+    "prettier": "prettier --write src",
+    "test": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --no-cache",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamhenson/algorithms-and-data-structures-with-typescript.git"
+  },
+  "keywords": [
+    "algorithms",
+    "computer science",
+    "data structures",
+    "typescript"
+  ],
+  "author": "Adam Henson <adamhenson1979@gmail.com> (https://github.com/adamhenson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamhenson/algorithms-and-data-structures-with-typescript/issues"
+  },
+  "homepage": "https://github.com/adamhenson/algorithms-and-data-structures-with-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "husky": "^8.0.1",
+    "jest": "^28.1.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "lint-staged": {
+    "src/**/*.{ts}": "prettier --write"
+  }
+}
