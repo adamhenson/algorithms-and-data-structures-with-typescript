@@ -6,4 +6,4 @@
 
 ~ [How to Implement a Linked List in JavaScript by Sarah Chima Atuonwu | freeCodeCamp](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 
-<img src="./linked-list.png" alt="Linked List" width="300" />
+<img src="./linked-list.png?v2" alt="Linked List" width="300" />
