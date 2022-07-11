@@ -1,1 +1,1 @@
-export { default as SinglyLinkedList } from './data-structures/LinkedList/SinglyLinkedList';
+export { default as singlyLinkedList } from './singly-linked-list';
