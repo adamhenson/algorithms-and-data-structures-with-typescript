@@ -32,3 +32,4 @@ Below is a list of references that helped create and inspire this project.
 
 - [Linked List Data Structure | GeeksforGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/?ref=lbp)
 - [How to Implement a Linked List in JavaScript by Sarah Chima Atuonwu | freeCodeCamp](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
+- [Implementation of LinkedList in Javascript | GeeksforGeeks](https://www.geeksforgeeks.org/implementation-linkedlist-javascript/)
