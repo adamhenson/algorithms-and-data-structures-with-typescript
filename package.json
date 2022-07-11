@@ -10,6 +10,7 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rimraf dist",
+    "lint": "eslint ./src --ext .ts",
     "prepublish": "npm run build",
     "prettier": "prettier --write src",
     "test": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --no-cache",
@@ -33,6 +34,11 @@
   "homepage": "https://github.com/adamhenson/algorithms-and-data-structures-with-typescript#readme",
   "devDependencies": {
     "@types/jest": "^28.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.5.3",
     "husky": "^8.0.1",
     "jest": "^28.1.2",
     "lint-staged": "^13.0.3",
@@ -42,6 +48,9 @@
     "typescript": "^4.7.4"
   },
   "lint-staged": {
-    "src/**/*.{ts}": "prettier --write"
+    "src/**/*.ts": [
+      "prettier --single-quote --write",
+      "eslint --fix"
+    ]
   }
 }
