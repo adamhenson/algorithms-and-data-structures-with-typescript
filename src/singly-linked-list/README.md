@@ -11,7 +11,7 @@
 # Characteristics
 
 - Every element contains both data and a pointer to the next element. A "Singly Linked List" does not have a pointer to the previous element (a differentiating characteristic to the "Doubly Linked List").
-- A pointer to a singly linked list is simply a pointer to the first element, or "head" of the list.
+- A pointer to a Singly Linked List is simply a pointer to the first element, or "head" of the list.
 - As elements may be scattered anywhere in allocated memory, finding a specified element requires starting at the head and walking through the linked list - in worst case O(*n*) time.
 - Because of the above, it can grow arbitrarily until available memory is exhausted.
 
