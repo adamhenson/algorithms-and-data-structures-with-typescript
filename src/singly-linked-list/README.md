@@ -20,7 +20,7 @@
 
 - While insertions and deletions of certain data structures, like an array, can be more expensive, these operations of a linked list can be done in constant time using pointers.
 
-<img src="./singly-linked-list-after-removal.png" alt="Singly Linked List" width="800" />
+<img src="./singly-linked-list-node-removal.png" alt="Singly Linked List node removal" width="800" />
 *Figure 2: an illustration of deletion efficiency. By using pointers, deletions occur in constant time O(1)*
 
 # Cons
@@ -53,18 +53,14 @@ headNode.next = new LinkedListNode('b');
 
 const list = new SinglyLinkedList(headNode);
 
-// insert 3 nodes
+// insert a node
 list.insert(new LinkedListNode('c'));
-list.insert(new LinkedListNode('d'));
-list.insert(new LinkedListNode('e'));
 
 // find the above inserted node "c"
 const nodeC = list.find((node) => node.data === 'c');
 
-console.log(nodeC.next.data); // "d"
-
 // remove node "d", so the above will now point to "e"
-list.remove((node) => node.data === 'd');
+list.remove((node) => node.data === 'b');
 
-console.log(nodeC.next.data); // "e"
+console.log(list.head.next.data); // "c"
 ```
