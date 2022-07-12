@@ -51,7 +51,7 @@ Inserts the provided node at the end of the linked list.
 
 This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`). It finds the node with a matching `next` node and simply re-assigns the pointing `next` property (figure 2).
 
-#### Full Example
+# Full Example
 
 ```typescript
 const headNode = new LinkedListNode('a');
