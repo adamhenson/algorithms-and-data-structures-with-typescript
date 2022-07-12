@@ -1,6 +1,24 @@
-export interface LinkedListNode {
-  data: any;
-  next: LinkedListNode | null;
+export class LinkedListNode {
+  constructor(
+    private _data: any = null,
+    private _next: LinkedListNode | null = null,
+  ) {}
+
+  get data(): any {
+    return this._data;
+  }
+
+  set data(data: any) {
+    this._data = data;
+  }
+
+  get next(): LinkedListNode | null {
+    return this._next;
+  }
+
+  set next(node: LinkedListNode) {
+    this._next = node;
+  }
 }
 
 export default class SinglyLinkedList {

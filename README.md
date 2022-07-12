@@ -2,7 +2,7 @@
 
 The goal of this project is to help bridge the gap between textbook computer science concepts and the world of modern programming. It provides examples implementing fundamental algorithms and data structures in TypeScript.
 
-Each directory within the `src` directory provides source code, tests and brief documentation explaining the concept, how its implemented and how its tested. The build outputs files in ES module format (otherwise known as "ESM" or "ECMAScript modules" or "JavaScript modules" or "JS modules")
+Each directory within the `src` directory provides source code, tests and brief documentation explaining the concept, and how its implemented. The build outputs files in ES module format (otherwise known as "ESM" or "ECMAScript modules" or "JavaScript modules" or "JS modules")
 
 #### Install
 
