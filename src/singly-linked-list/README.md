@@ -7,7 +7,7 @@
 ~ [How to Implement a Linked List in JavaScript by Sarah Chima Atuonwu | freeCodeCamp](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 
 <img src="./singly-linked-list.png" alt="Singly Linked List" width="800" />
-*Figure 1: a simple Singly Linked List diagram*
+<em>Figure 1: a simple Singly Linked List diagram</em>
 
 # Characteristics
 
@@ -21,7 +21,7 @@
 - While insertions and deletions of certain data structures, like an array, can be more expensive, these operations of a linked list can be done in constant time using pointers.
 
 <img src="./singly-linked-list-node-removal.png" alt="Singly Linked List node removal" width="800" />
-*Figure 2: an illustration of deletion efficiency. By using pointers, deletions occur in constant time O(1)*
+<em>Figure 2: an illustration of deletion efficiency. By using pointers, deletions occur in constant time O(1)</em>
 
 # Cons
 
