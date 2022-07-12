@@ -37,11 +37,19 @@ const headNode = new LinkedListNode('a');
 const list = new SinglyLinkedList(headNode);
 ```
 
-We've extended our implementation to provide the following helper methods:
+This implementation provides some extra helper methods:
 
-- `SinglyLinkedList.find`: This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`)
-- `SinglyLinkedList.insert`: Inserts the provided node at the end of the linked list.
-- `SinglyLinkedList.remove`: This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`). It finds the node with a matching `next` node and simply re-assigns the pointing `next` property (figure 2).
+#### `SinglyLinkedList.find`
+
+This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`).
+
+#### `SinglyLinkedList.insert`
+
+Inserts the provided node at the end of the linked list.
+
+#### `SinglyLinkedList.remove`
+
+This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`). It finds the node with a matching `next` node and simply re-assigns the pointing `next` property (figure 2).
 
 #### Full Example
 
