@@ -59,7 +59,36 @@ describe('SinglyLinkedList', () => {
       headNode.next = nextNode;
       const list = new SinglyLinkedList(headNode);
       list.insert(new LinkedListNode('c'));
-      expect(list.head.next.next.data).toEqual('c');
+      expect(list.head.data).toEqual('c');
+      expect(list.head.next.data).toEqual('a');
+      expect(list.head.next.next.data).toEqual('b');
+    });
+  });
+
+  describe('SinglyLinkedList.removeFirst', () => {
+    it('should remove the first node', () => {
+      const headNode = new LinkedListNode('a');
+      const nextNode = new LinkedListNode('b');
+      const nextNextNode = new LinkedListNode('c');
+      nextNode.next = nextNextNode;
+      headNode.next = nextNode;
+      const list = new SinglyLinkedList(headNode);
+      list.removeFirst();
+      expect(list.head.data).toEqual('b');
+    });
+  });
+
+  describe('SinglyLinkedList.removeLast', () => {
+    it('should remove the last node', () => {
+      const headNode = new LinkedListNode('a');
+      const nextNode = new LinkedListNode('b');
+      const nextNextNode = new LinkedListNode('c');
+      nextNode.next = nextNextNode;
+      headNode.next = nextNode;
+      const list = new SinglyLinkedList(headNode);
+      list.removeLast();
+      expect(list.head.next.data).toEqual('b');
+      expect(list.head.next.next).toEqual(null);
     });
   });
 

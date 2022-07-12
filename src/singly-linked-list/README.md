@@ -45,7 +45,7 @@ This methods walks through each link until it finds a matching node based on the
 
 #### `SinglyLinkedList.insert`
 
-Inserts the provided node at the end of the linked list.
+Inserts the provided node as the `head` of the linked list.
 
 #### `SinglyLinkedList.remove`
 

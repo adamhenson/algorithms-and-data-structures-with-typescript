@@ -24,12 +24,10 @@ export class LinkedListNode {
 export default class SinglyLinkedList {
   constructor(public head: LinkedListNode = null) {}
 
-  find(
-    predicate: (node: LinkedListNode, nextNode?: LinkedListNode) => boolean,
-  ): LinkedListNode | null {
+  find(predicate: (node: LinkedListNode) => boolean): LinkedListNode | null {
     let node = this.head;
     while (node !== null) {
-      if (predicate(node, node.next)) {
+      if (predicate(node)) {
         return node;
       }
       node = node.next;
@@ -38,12 +36,23 @@ export default class SinglyLinkedList {
   }
 
   insert(node: LinkedListNode) {
-    const lastNode = this.find((node) => node.next === null);
-    lastNode.next = node;
+    node.next = this.head;
+    this.head = node;
+  }
+
+  removeFirst(): LinkedListNode | null {
+    const removed = this.head;
+    this.head = this.head.next;
+    return removed;
+  }
+
+  removeLast(): LinkedListNode | null {
+    const removed = this.remove((node) => node.next === null);
+    return removed;
   }
 
   remove(predicate: (node: LinkedListNode) => boolean): LinkedListNode | null {
-    const nodeBefore = this.find((_node, nextNode) => predicate(nextNode));
+    const nodeBefore = this.find((node) => predicate(node.next));
     if (!nodeBefore) {
       return null;
     }
