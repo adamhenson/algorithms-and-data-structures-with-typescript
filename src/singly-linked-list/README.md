@@ -9,36 +9,31 @@
 <img src="./singly-linked-list.png" alt="Singly Linked List" width="800" />
 <em>Figure 1: a simple Singly Linked List diagram</em>
 
-# Characteristics 
+# Characteristics
 
+- Is a [linear data structure](https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/).
 - Every element contains both data and a pointer to the next element. A "Singly Linked List" does not have a pointer to the previous element (a differentiating characteristic to the "Doubly Linked List").
 - A pointer to a Singly Linked List is simply a pointer to the first element, or "head" of the list.
 - As elements may be scattered anywhere in allocated memory, finding a specified element requires starting at the head and walking through the linked list - in worst case O(*n*) time.
 - Because of the above, it can grow arbitrarily until available memory is exhausted.
-- Is a [linear data structure](https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/).
 
-# Pros
+# Advantages
 
 - While insertions and deletions of certain data structures, like an array, can be more expensive, these operations of a linked list can be done in constant time using pointers.
 
 <img src="./singly-linked-list-node-removal.png" alt="Singly Linked List node removal" width="800" />
 <em>Figure 2: an illustration of deletion efficiency. By using pointers, deletions occur in constant time O(1)</em>
 
-# Cons
+# Disadvantages
 
 - A linked list can waste space when over-allocated and unused as it **does not** occupy a contiguous memory locations.
 - Finding an item of a linked list requires walking through the list - in worst case O(*n*) time vs an array which takes a constant time to retrieve an element or O(1).
 
 # Example Implementation
 
-In [this example](./index.ts) we have a class `SinglyLinkedList` that accepts the `head` node upon instantiation like so. We can predefine the a "node"s `next` property or allow the default `null` value (see full example at the bottom).
+In [this example](./index.ts) we have a class `SinglyLinkedList` that accepts the `head` node upon instantiation like so. We can predefine the a "node"s `next` property or allow the default `null` value.
 
-```typescript
-const headNode = new LinkedListNode('a');
-const list = new SinglyLinkedList(headNode);
-```
-
-This implementation provides some extra helper methods:
+## Methods
 
 #### `SinglyLinkedList.find`
 
@@ -52,24 +47,6 @@ Inserts the provided node as the `head` of the linked list.
 
 This methods walks through each link until it finds a matching node based on the provided predicate function (similar to `Array.find`). It finds the node with a matching `next` node and simply re-assigns the pointing `next` property (figure 2).
 
-# Full Example
+## Full Example
 
-```typescript
-const headNode = new LinkedListNode('a');
-
-// without the line below, `headNode.next` would be `null`
-headNode.next = new LinkedListNode('b');
-
-const list = new SinglyLinkedList(headNode);
-
-// insert a node
-list.insert(new LinkedListNode('c'));
-
-// find the above inserted node "c"
-const nodeC = list.find((node) => node.data === 'c');
-
-// remove node "d", so the above will now point to "e"
-list.remove((node) => node.data === 'b');
-
-console.log(list.head.next.data); // "c"
-```
+See [source code](./index.ts) and [tests](./index.test.ts) for complete implementation.

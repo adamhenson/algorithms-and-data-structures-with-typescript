@@ -1,7 +1,7 @@
 export class LinkedListNode {
   constructor(
-    private _data: any = null,
-    private _next: LinkedListNode | null = null,
+    protected _data: any = null,
+    protected _next: LinkedListNode | null = null,
   ) {}
 
   get data(): any {
