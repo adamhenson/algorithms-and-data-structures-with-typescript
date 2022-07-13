@@ -5,6 +5,7 @@
 ~ [Overview of Data Structures | Set 1 (Linear Data Structures) | GeeksforGeeks](https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/)
 
 <img src="./stack.png" alt="Stack" width="800" />
+<em>Image from [Programiz](https://www.programiz.com/dsa/stack)</em>
 
 # Characteristics 
 
