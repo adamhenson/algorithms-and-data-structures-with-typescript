@@ -24,20 +24,20 @@
 
 # Advantages
 
-**Efficient data management**: Stack helps you manage the data in a LIFO (last in, first out) method, which is not possible with a Linked list and array.
-**Efficient management of functions**: When a function is called, the local variables are stored in a stack, and it is automatically destroyed once returned.
-**Control over memory**: Stack allows you to control how memory is allocated and deallocated.
-**Smart memory management**: Stack automatically cleans up the object.
-**Not easily corrupted**: Stack does not get corrupted easily; hence it is more secure and reliable.
-**Does not allow resizing of variables**: Variables cannot be resized.
+- **Efficient data management**: Stack helps you manage the data in a LIFO (last in, first out) method, which is not possible with a Linked list and array.
+- **Efficient management of functions**: When a function is called, the local variables are stored in a stack, and it is automatically destroyed once returned.
+- **Control over memory**: Stack allows you to control how memory is allocated and deallocated.
+- **Smart memory management**: Stack automatically cleans up the object.
+- **Not easily corrupted**: Stack does not get corrupted easily; hence it is more secure and reliable.
+- **Does not allow resizing of variables**: Variables cannot be resized.
 
 # Disadvantages
 
-**Limited memory size:** Stack memory is very limited.
-**Chances of stack overflow**: Creating too many objects on the stack can increase the risk of stack overflow.
-**Random access is not possible**: In a stack, random accessing the data is not possible.
-**Unreliable**: When variable storage will get overwritten, it will sometimes leads to undefined behaviour of the function or program.
-**Undesired termination**: The stack will fall outside of the memory area, which might lead to an abnormal termination.
+- **Limited memory size:** Stack memory is very limited.
+- **Chances of stack overflow**: Creating too many objects on the stack can increase the risk of stack overflow.
+- **Random access is not possible**: In a stack, random accessing the data is not possible.
+- **Unreliable**: When variable storage will get overwritten, it will sometimes leads to undefined behaviour of the function or program.
+- **Undesired termination**: The stack will fall outside of the memory area, which might lead to an abnormal termination.
 
 <em>Content of the above sections "advantages" and "disadvantages" was sourced from <a href="https://learningmadesimple360.blogspot.com/2021/08/advantages-and-disadvantages-of-stack.html">Advantages and Disadvantages of Stack | Learning Made Simple 360</a></em>
 
