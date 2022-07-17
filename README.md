@@ -7,6 +7,10 @@ The goal of this project is to help bridge the gap between textbook computer sci
 This is a work in progress. All items that aren't linked are coming soon. PRs are welcomed!
 
 - [How to Use this Project](#how-to-use-this-project)
+  - [Install](#install)
+  - [Build](#build)
+  - [Test](#test)
+  - [Contributing](#contributing)
 - Asymptotic runtime
   - Time and Space Complexity
     - Difference between Time and Space Complexity
@@ -81,7 +85,7 @@ npm run build
 npm run test
 ```
 
-# Contributions
+# Contributing
 
 Contributions are welcome. To contribute feel free to open a PR! If you'd like to contribute, please open 2 PRs (1 before you've started to identify which parts you'll be doing and the 2nd PR with your final changes to be reviewed).
 
