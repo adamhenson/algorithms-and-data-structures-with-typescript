@@ -87,7 +87,7 @@ npm run test
 
 # Contributing
 
-Contributions are welcome. To contribute feel free to open a PR! If you'd like to contribute, please open 2 PRs (1 before you've started to identify which parts you'll be doing and the 2nd PR with your final changes to be reviewed).
+Contributions are welcome. If you'd like to contribute, please open 2 PRs (1 before you've started to identify which part/s you'll be doing and the 2nd PR with your final changes to be reviewed).
 
 **Example 1st PR**
 
