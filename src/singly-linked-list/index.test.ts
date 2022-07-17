@@ -14,7 +14,7 @@ describe('SinglyLinkedList', () => {
     headNode.next = nextNode;
     const list = new SinglyLinkedList(headNode);
     expect(list.head.data).toEqual('a');
-    expect(list.head.next.data).toEqual('b');
+    expect(list.head.next?.data).toEqual('b');
   });
 
   it('should allow nodes to update outside of the list context', () => {
@@ -22,9 +22,9 @@ describe('SinglyLinkedList', () => {
     const nextNode = new LinkedListNode('b');
     headNode.next = nextNode;
     const list = new SinglyLinkedList(headNode);
-    expect(list.head.next.data).toEqual('b');
+    expect(list?.head?.next?.data).toEqual('b');
     nextNode.data = 'b-version-2';
-    expect(list.head.next.data).toEqual('b-version-2');
+    expect(list?.head?.next?.data).toEqual('b-version-2');
   });
 
   describe('SinglyLinkedList.find', () => {
@@ -34,7 +34,7 @@ describe('SinglyLinkedList', () => {
       headNode.next = nextNode;
       const list = new SinglyLinkedList(headNode);
       const matchedNode = list.find((node) => node.data === 'b');
-      expect(matchedNode.data).toEqual('b');
+      expect(matchedNode?.data).toEqual('b');
     });
 
     it(
@@ -47,7 +47,7 @@ describe('SinglyLinkedList', () => {
         const list = new SinglyLinkedList(headNode);
         nextNode.data = 'b-version-2';
         const matchedNode = list.find((node) => node.data === 'b-version-2');
-        expect(matchedNode.data).toEqual('b-version-2');
+        expect(matchedNode?.data).toEqual('b-version-2');
       },
     );
   });
@@ -60,8 +60,8 @@ describe('SinglyLinkedList', () => {
       const list = new SinglyLinkedList(headNode);
       list.insert(new LinkedListNode('c'));
       expect(list.head.data).toEqual('c');
-      expect(list.head.next.data).toEqual('a');
-      expect(list.head.next.next.data).toEqual('b');
+      expect(list.head.next?.data).toEqual('a');
+      expect(list.head.next?.next?.data).toEqual('b');
     });
   });
 
@@ -87,8 +87,8 @@ describe('SinglyLinkedList', () => {
       headNode.next = nextNode;
       const list = new SinglyLinkedList(headNode);
       list.removeLast();
-      expect(list.head.next.data).toEqual('b');
-      expect(list.head.next.next).toEqual(null);
+      expect(list.head.next?.data).toEqual('b');
+      expect(list.head.next?.next).toEqual(null);
     });
   });
 
@@ -101,7 +101,7 @@ describe('SinglyLinkedList', () => {
       headNode.next = nextNode;
       const list = new SinglyLinkedList(headNode);
       list.remove((node) => node.data === 'b');
-      expect(list.head.next.data).toEqual('c');
+      expect(list.head.next?.data).toEqual('c');
     });
   });
 });
