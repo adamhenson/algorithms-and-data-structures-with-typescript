@@ -32,7 +32,7 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
     - Tree
     - Graph
     - Binary Tree
-    - Binary Search Tree
+    - Binary Search Tree (coming soon from @adamhenson)
     - Matrix
 - Algorithms
   - Sorting Algorithms
@@ -49,7 +49,7 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
       - Bucket sort
   - Searching Algorithms
     - Linear Search
-    - Binary Search
+    - Binary Search (coming soon from @adamhenson)
     - Ternary Search
     - Interpolation Search
     - Exponential Search
@@ -83,4 +83,11 @@ npm run test
 
 # Contributions
 
-Contributions are welcome. To contribute feel free to open a PR!
+Contributions are welcome. To contribute feel free to open a PR! If you'd like to contribute, please open 2 PRs (1 before you've started to identify which parts you'll be doing and the 2nd PR with your final changes to be reviewed).
+
+**Example 1st PR**
+
+``` diff
+-    - Binary Search Tree
++    - Binary Search Tree (coming soon from @adamhenson)
+```
