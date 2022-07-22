@@ -11,10 +11,11 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
   - [Build](#build)
   - [Test](#test)
   - [Contributing](#contributing)
-- Asymptotic runtime
-  - Time and Space Complexity
-    - Difference between Time and Space Complexity
-    - Space Complexity
+- [Asymptotic runtime](./src/asymptotic-runtime/README.md#asymptotic-runtime)
+  - [Time and Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#time-complexity)
+    - [Difference between Time and Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#difference-between-time-and-space-complexity)
+    - [Time Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#time-complexity)
+    - [Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#space-complexity)
   - Big O Notation
     - Linear Time Complexity
     - Quadratic Time Complexity
