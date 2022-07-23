@@ -2,7 +2,7 @@
 
 Big O is a notation for measuring the complexity of an algorithm. Big O notation mathematically describes the complexity of an algorithm in terms of time and space. We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of gtrth of an algorithm in the number of operations it takes to complete.
 
-Why order?
+**Why order?**
 
 In biology, an order is a taxonomic classification. We are in the order of primates.
 
@@ -14,7 +14,7 @@ You will see Big O referred to as asymptotic runtime, or asymptotic computationa
 
 Big O notation is used to define the worst-case scenario for a given algorithm.
 
-Why?
+**Why?**
 
 Because we don’t know what we don’t know.
 
