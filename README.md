@@ -77,6 +77,8 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
   - Dynamic Programming
   - Divide and Conquer
 
+---
+
 # How to Use this Project
 
 This project itself is a "tree" directory structure based on the table of contents. Each directory within the `src` directory provides source code, tests and brief documentation explaining the concept, and how its implemented. The build outputs files in ES module format (otherwise known as "ESM" or "ECMAScript modules" or "JavaScript modules" or "JS modules"). Examples are documented to an extent that illustrates implementation of the concept but not necessarily proper API documentation as this is not a published project meant to be consumed.
