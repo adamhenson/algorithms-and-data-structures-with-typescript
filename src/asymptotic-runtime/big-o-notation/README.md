@@ -1,6 +1,6 @@
 # Big O Notation
 
-Big O is a notation for measuring the complexity of an algorithm. Big O notation mathematically describes the complexity of an algorithm in terms of time and space. We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of gtrth of an algorithm in the number of operations it takes to complete.
+> Big O is a notation for measuring the complexity of an algorithm. Big O notation mathematically describes the complexity of an algorithm in terms of time and space. We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of gtrth of an algorithm in the number of operations it takes to complete.
 
 **Why order?**
 
