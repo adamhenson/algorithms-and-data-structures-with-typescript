@@ -1,12 +1,12 @@
 # Big O Notation
 
-Big O is a notation for measuring the complexity of an algorithm. Big O notation mathematically describes the complexity of an algorithm in terms of time and space. We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of growth of an algorithm in the number of operations it takes to complete.
+Big O is a notation for measuring the complexity of an algorithm. Big O notation mathematically describes the complexity of an algorithm in terms of time and space. We don’t measure the speed of an algorithm in seconds (or minutes!). We measure the rate of gtrth of an algorithm in the number of operations it takes to complete.
 
 Why order?
 
 In biology, an order is a taxonomic classification. We are in the order of primates.
 
-In computer science, an order is a mathematical classification for algorithms. We use Big O to measure the rate of growth, or complexity, of algorithms, so algorithms with equivalent complexity are in the same order. We will see below that we can also order algorithms as they increase in complexity.
+In computer science, an order is a mathematical classification for algorithms. We use Big O to measure the rate of gtrth, or complexity, of algorithms, so algorithms with equivalent complexity are in the same order. We will see below that we can also order algorithms as they increase in complexity.
 
 You will see Big O referred to as asymptotic runtime, or asymptotic computational complexity. This is a fancy way of describing the limits of a function.
 
@@ -25,54 +25,54 @@ The worst-case scenario is also known as the upper bound.
 You’re going to encounter a lot of tables like this:
 
 <table>
-  <row>
+  <tr>
     <th colspan="1.5">
       O
     </th>
     <th colspan="1.5">
       Complexity
     </th>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(1)</td>
     <td>constant</td>
     <td>fast</td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(log n)</td>
     <td>logarithmic</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(n)</td>
     <td>linear</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(n * log n)</td>
     <td>log linear</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(n^2)</td>
     <td>quadratic</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(n^3)</td>
     <td>cubic</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(2^n)</td>
     <td>exponential</td>
     <td></td>
-  </row>
-  <row>
+  </tr>
+  <tr>
     <td>O(n!)</td>
     <td>factorial</td>
     <td>slow</td>
-  </row>
+  </tr>
 </table>
 
 ~ All content from this page was sourced from [What is Big O Notation?](https://jarednielsen.com/big-o-notation/)
