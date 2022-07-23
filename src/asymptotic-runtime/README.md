@@ -4,13 +4,13 @@
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="100%" colspan="2">
       ~ A Programmer's Guide to Computer Science (Volume 1), by William M. Springer II, PhD
     </td>
-    <td width="50%">
-      <div align="right">
-        <a href="./time-and-space-complexity/README.md">Time and Space Complexity -></a>
-      </div>
+  </tr>
+  <tr>
+    <td width="100%" align="right" colspan="2">
+      <a href="./time-and-space-complexity/README.md">Time and Space Complexity -></a>
     </td>
   </tr>
 </table>
