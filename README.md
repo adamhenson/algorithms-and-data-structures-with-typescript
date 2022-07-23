@@ -2,15 +2,18 @@
 
 The goal of this project is to help bridge the gap between textbook computer science concepts and the world of modern programming. It provides examples implementing fundamental algorithms and data structures in TypeScript.
 
-# Table of Contents
-
-This is a work in progress. All items that aren't linked are coming soon. PRs are welcomed!
-
 - [How to Use this Project](#how-to-use-this-project)
   - [Install](#install)
   - [Build](#build)
   - [Test](#test)
   - [Contributing](#contributing)
+
+---
+
+# Table of Contents
+
+This is a work in progress. All items that aren't linked are coming soon. PRs are welcomed!
+
 - [Asymptotic runtime](./src/asymptotic-runtime/README.md#asymptotic-runtime)
   - [Time and Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#time-and-space-complexity)
     - [Difference between Time and Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#difference-between-time-and-space-complexity)
