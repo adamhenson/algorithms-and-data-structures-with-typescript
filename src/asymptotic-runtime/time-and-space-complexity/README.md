@@ -22,9 +22,16 @@ Many algorithms have inputs that can vary in size, e.g., an array. In such cases
 
 It's valuable for a programmer to learn how to compare performances of different algorithms and choose the best time-space complexity to solve a particular problem in the most efficient way possible.
 
-_**Disclaimer**: All content from this page was sourced from [Time complexity vs. space complexity | educative](https://www.educative.io/answers/time-complexity-vs-space-complexity)_
-
-<div align="right">
-  <a href="../README.md"><- Asymptotic Runtime</a> | 
-  <a href="../big-o-notation/README.md">Big O Notation -></a>
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      Content from this page was sourced from <a href="https://www.educative.io/answers/time-complexity-vs-space-complexity">Time complexity vs. space complexity | educative</a>
+    </td>
+    <td width="50%">
+      <div align="right">
+        <a href="../README.md"><- Asymptotic Runtime</a> | 
+        <a href="../big-o-notation/README.md">Big O Notation -></a>
+      </div>
+    </td>
+  </tr>
+</table>

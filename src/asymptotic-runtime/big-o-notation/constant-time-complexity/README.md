@@ -35,9 +35,16 @@ It’s still O(1).
 
 Even though we check multiple conditions before returning indifference, the order of, or rate of growth, is constant. The size of the input does not affect the number of operations performed. We know the upper bound, or worst-case scenario, in advance, and we know it will not change.
 
-_**Disclaimer**: Some content from this page was sourced from [What is Big O Notation? | jarednielsen.com](https://jarednielsen.com/big-o-notation/)_
-
-<div align="right">
-  <a href="../README.md"><- Big O Notation</a> | 
-  <a href="../linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      Content from this page was sourced from <a href="https://jarednielsen.com/big-o-notation/">What is Big O Notation? | jarednielsen.com</a>
+    </td>
+    <td width="50%">
+      <div align="right">
+        <a href="../README.md"><- Big O Notation</a> | 
+        <a href="../linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
+      </div>
+    </td>
+  </tr>
+</table>

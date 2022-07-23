@@ -77,9 +77,16 @@ You’re going to encounter a lot of tables like this:
   </tr>
 </table>
 
-_**Disclaimer**: All content from this page was sourced from [What is Big O Notation? | jarednielsen.com](https://jarednielsen.com/big-o-notation/)_
-
-<div align="right">
-  <a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a> | 
-  <a href="./constant-time-complexity/README.md#constant-time-complexity">Constant Time Complexity -></a>
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      Content from this page was sourced from <a href="https://jarednielsen.com/big-o-notation/">What is Big O Notation? | jarednielsen.com</a>
+    </td>
+    <td width="50%">
+      <div align="right">
+        <a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a> | 
+        <a href="./constant-time-complexity/README.md#constant-time-complexity">Constant Time Complexity -></a>
+      </div>
+    </td>
+  </tr>
+</table>

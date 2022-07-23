@@ -324,7 +324,7 @@ In mathematics, this is known as a multilinear function. Bust that out in your n
 <table>
   <tr>
     <td width="50%">
-      Content from this page was sourced from <a href="https://jarednielsen.com/big-o-quadratic-time-complexity/">Big O Quadratic Time Complexity | jarednielsen.com
+      Content from this page was sourced from <a href="https://jarednielsen.com/big-o-quadratic-time-complexity/">Big O Quadratic Time Complexity | jarednielsen.com</a>
     </td>
     <td width="50%">
       <div align="right">
