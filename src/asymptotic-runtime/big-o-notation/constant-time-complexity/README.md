@@ -39,5 +39,5 @@ _**Disclaimer**: Some content from this page was sourced from [What is Big O Not
 
 <div align="right">
   <a href="../README.md"><- Big O Notation</a> | 
-  <a href="./linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
+  <a href="../linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
 </div>

@@ -101,5 +101,5 @@ _**Disclaimer**: Some content from this page was sourced from [Big O Linear Time
 
 <div align="right">
   <a href="../constant-time-complexity#constant-time-complexity"><- Constant Time Complexity</a> | 
-  <a href="./quadratic-time-complexity/README.md#quadratic-time-complexity">Quadratic Time Complexity -></a>
+  <a href="../quadratic-time-complexity/README.md#quadratic-time-complexity">Quadratic Time Complexity -></a>
 </div>
