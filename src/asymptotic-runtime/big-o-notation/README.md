@@ -77,7 +77,7 @@ You’re going to encounter a lot of tables like this:
   </tr>
 </table>
 
-_**Disclaimer**: All content from this page was sourced from [What is Big O Notation?](https://jarednielsen.com/big-o-notation/)_
+_**Disclaimer**: All content from this page was sourced from [What is Big O Notation? | jarednielsen.com](https://jarednielsen.com/big-o-notation/)_
 
 <div align="right">
   <a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a> | 
