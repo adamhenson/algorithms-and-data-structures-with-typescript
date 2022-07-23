@@ -2,7 +2,7 @@
 
 > In Mathematical terms, we are finding the asymptotic runtime of the algorithm, which is the rate at which the runtime grows compared to the size of the input.
 
-<table>
+<table width="100%">
   <tr>
     <td width="100%">
       ~ A Programmer's Guide to Computer Science (Volume 1), by William M. Springer II, PhD
