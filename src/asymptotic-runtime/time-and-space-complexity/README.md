@@ -24,5 +24,7 @@ It's valuable for a programmer to learn how to compare performances of different
 
 _**Disclaimer**: All content from this page was sourced from [Time complexity vs. space complexity | educative](https://www.educative.io/answers/time-complexity-vs-space-complexity)_
 
-<a href="../README.md"><- Asymptotic Runtime</a> | 
-<a href="../big-o-notation/README.md">Big O Notation -></a>
+<div align="right">
+  <a href="../README.md"><- Asymptotic Runtime</a> | 
+  <a href="../big-o-notation/README.md">Big O Notation -></a>
+</div>

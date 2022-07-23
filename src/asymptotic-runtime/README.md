@@ -4,4 +4,6 @@
 
 ~ A Programmer's Guide to Computer Science (Volume 1), by William M. Springer II, PhD
 
-<a href="./time-and-space-complexity/README.md">Time and Space Complexity -></a>
+<div align="right">
+  <a href="./time-and-space-complexity/README.md">Time and Space Complexity -></a>
+</div>

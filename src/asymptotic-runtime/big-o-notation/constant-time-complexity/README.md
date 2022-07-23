@@ -37,5 +37,7 @@ Even though we check multiple conditions before returning indifference, the orde
 
 _**Disclaimer**: Some content from this page was sourced from [What is Big O Notation?](https://jarednielsen.com/big-o-notation/)_
 
-<a href="../README.md)"><- Big O Notation</a> | 
-<a href="./constant-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
+<div align="right">
+  <a href="../README.md)"><- Big O Notation</a> | 
+  <a href="./constant-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
+</div>
