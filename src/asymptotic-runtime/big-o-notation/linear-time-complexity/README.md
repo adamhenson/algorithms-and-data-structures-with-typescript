@@ -51,19 +51,7 @@ for (const animal of animals) {
 };
 ```
 
-If our user searches for "ocelot", how many operations are performed?
-
-One. It’s the first item in our array, so our program will return after one operation.
-
-That specific operation would be O(1).
-
-But, if our user searches for "osprey", how many operations are performed?
-
-Eight. That’s our upper bound and worst case scenario. For eight inputs, our algorithm will perform eight operations.
-
-What if our array contained 100 animals?
-
-The worst-case scenario would be 100 operations.
+If our user searches for "ocelot", how many operations are performed? One. It’s the first item in our array, so our program will return after one operation. That specific operation would be O(1). But, if our user searches for "osprey", how many operations are performed? Eight. That’s our upper bound and worst case scenario. For eight inputs, our algorithm will perform eight operations. What if our array contained 100 animals? The worst-case scenario would be 100 operations.
 
 What about 1,000?
 
