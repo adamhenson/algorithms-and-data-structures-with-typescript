@@ -321,9 +321,9 @@ So this is O(n * m).
 
 In mathematics, this is known as a multilinear function. Bust that out in your next technical interview!
 
-<table>
+<table width="100%">
   <tr>
-    <td width="100%" colspan="2">
+    <td colspan="2">
       Content from this page was sourced from <a href="https://jarednielsen.com/big-o-quadratic-time-complexity/">Big O Quadratic Time Complexity | jarednielsen.com</a>
     </td>
   </tr>
