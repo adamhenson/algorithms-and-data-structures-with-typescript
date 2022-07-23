@@ -79,14 +79,16 @@ You’re going to encounter a lot of tables like this:
 
 <table>
   <tr>
-    <td width="50%">
+    <td colspan="2">
       Content from this page was sourced from <a href="https://jarednielsen.com/big-o-notation/">What is Big O Notation? | jarednielsen.com</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <div align="right">
-        <a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a> | 
-        <a href="./constant-time-complexity/README.md#constant-time-complexity">Constant Time Complexity -></a>
-      </div>
+      <a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a>
+    </td>
+    <td width="50%" align="right"> 
+      <a href="./constant-time-complexity/README.md#constant-time-complexity">Constant Time Complexity -></a>
     </td>
   </tr>
 </table>

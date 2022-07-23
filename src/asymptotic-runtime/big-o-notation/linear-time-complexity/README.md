@@ -87,14 +87,16 @@ What is the order of this? It's still O(_n_). Were you tempted to calculate it a
 
 <table>
   <tr>
-    <td width="50%">
+    <td colspan="2">
       Content from this page was sourced from <a href="https://jarednielsen.com/big-o-linear-time-complexity/">Big O Linear Time Complexity | jarednielsen.com</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <div align="right">
-        <a href="../constant-time-complexity#constant-time-complexity"><- Constant Time Complexity</a> | 
-        <a href="../quadratic-time-complexity/README.md#quadratic-time-complexity">Quadratic Time Complexity -></a>
-    </div>
+      <a href="../constant-time-complexity#constant-time-complexity"><- Constant Time Complexity</a>
+    </td>
+    <td width="50%" align="right"> 
+      <a href="../quadratic-time-complexity/README.md#quadratic-time-complexity">Quadratic Time Complexity -></a>
     </td>
   </tr>
 </table>

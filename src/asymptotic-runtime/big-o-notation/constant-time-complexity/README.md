@@ -37,14 +37,16 @@ Even though we check multiple conditions before returning indifference, the orde
 
 <table>
   <tr>
-    <td width="50%">
+    <td colspan="2">
       Content from this page was sourced from <a href="https://jarednielsen.com/big-o-notation/">What is Big O Notation? | jarednielsen.com</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <div align="right">
-        <a href="../README.md"><- Big O Notation</a> | 
-        <a href="../linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
-      </div>
+      <a href="../README.md"><- Big O Notation</a>
+    </td>
+    <td width="50%" align="right"> 
+      <a href="../linear-time-complexity/README.md#linear-time-complexity">Linear Time Complexity -></a>
     </td>
   </tr>
 </table>

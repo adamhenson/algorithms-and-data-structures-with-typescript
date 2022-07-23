@@ -24,14 +24,16 @@ It's valuable for a programmer to learn how to compare performances of different
 
 <table>
   <tr>
-    <td width="50%">
+    <td colspan="2">
       Content from this page was sourced from <a href="https://www.educative.io/answers/time-complexity-vs-space-complexity">Time complexity vs. space complexity | educative</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <div align="right">
-        <a href="../README.md"><- Asymptotic Runtime</a> | 
-        <a href="../big-o-notation/README.md">Big O Notation -></a>
-      </div>
+      <a href="../README.md"><- Asymptotic Runtime</a>
+    </td>
+    <td width="50%" align="right"> 
+      <a href="../big-o-notation/README.md">Big O Notation -></a>
     </td>
   </tr>
 </table>
