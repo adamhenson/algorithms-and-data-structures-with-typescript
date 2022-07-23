@@ -17,6 +17,8 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
     - [Time Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#time-complexity)
     - [Space Complexity](./src/asymptotic-runtime/time-and-space-complexity/README.md#space-complexity)
   - Big O Notation
+    - How Does Big O Notation Work?
+    - Constant Time Complexity
     - Linear Time Complexity
     - Quadratic Time Complexity
     - Polynomial Time Complexity
