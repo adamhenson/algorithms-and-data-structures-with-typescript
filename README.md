@@ -19,7 +19,7 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
   - [Big O Notation](./src/asymptotic-runtime/big-o-notation/README.md#big-o-notation)
     - [How Does Big O Notation Work?](./src/asymptotic-runtime/big-o-notation/README.md#how-does-big-o-notation-work)
     - [Constant Time Complexity](./src/asymptotic-runtime/big-o-notation/constant-time-complexity/README.md#constant-time-complexity)
-      - [Constant Time Complexity Example](./src/asymptotic-runtime/big-o-notation/constant-time-complexity/README.md#constant-time-complexity-example)
+      - [Example](./src/asymptotic-runtime/big-o-notation/constant-time-complexity/README.md#example)
     - Linear Time Complexity
     - Quadratic Time Complexity
     - Polynomial Time Complexity

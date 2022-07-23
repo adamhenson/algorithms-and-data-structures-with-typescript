@@ -4,7 +4,7 @@
 
 > No matter how many times you run your 'algorithm', it only needs to perform one operation to return the desired value. That's O(1), or constant time.
 
-## Constant Time Complexity Example
+## Example
 
 ```typescript
 const isPrime = (num: number): boolean | string => {
