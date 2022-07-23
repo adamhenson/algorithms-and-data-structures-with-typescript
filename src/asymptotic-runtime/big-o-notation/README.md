@@ -26,11 +26,13 @@ You’re going to encounter a lot of tables like this:
 
 <table>
   <tr>
-    <th colspan="1.5">
+    <th>
       O
     </th>
-    <th colspan="1.5">
+    <th>
       Complexity
+    </th>
+    <th>
     </th>
   </tr>
   <tr>
@@ -76,3 +78,6 @@ You’re going to encounter a lot of tables like this:
 </table>
 
 ~ All content from this page was sourced from [What is Big O Notation?](https://jarednielsen.com/big-o-notation/)
+
+<a href="../time-and-space-complexity/README.md#time-and-space-complexity)"><- Time and Space Complexity</a> | 
+<a href="./constant-time-complexity/README.md#constant-time-complexity">Constant Time Complexity -></a>
