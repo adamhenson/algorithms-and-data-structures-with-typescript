@@ -20,7 +20,10 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
     - [How Does Big O Notation Work?](./src/asymptotic-runtime/big-o-notation/README.md#how-does-big-o-notation-work)
     - [Constant Time Complexity](./src/asymptotic-runtime/big-o-notation/constant-time-complexity/README.md#constant-time-complexity)
       - [Example](./src/asymptotic-runtime/big-o-notation/constant-time-complexity/README.md#example)
-    - Linear Time Complexity
+    - [Linear Time Complexity](./src/asymptotic-runtime/big-o-notation/linear-time-complexity/README.md#linear-time-complexity)
+      - [Big O & Upper Bound](./src/asymptotic-runtime/big-o-notation/linear-time-complexity/README.md#big-o--upper-bound)
+      - [Example](./src/asymptotic-runtime/big-o-notation/linear-time-complexity/README.md#example)
+      - [Big O & Successive Iterations](./src/asymptotic-runtime/big-o-notation/linear-time-complexity/README.md#big-o--successive-iterations)
     - Quadratic Time Complexity
     - Polynomial Time Complexity
     - Logarithmic Time Complexity
