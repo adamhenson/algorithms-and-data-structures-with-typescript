@@ -78,7 +78,7 @@ By dividing our input with each iteration, we are inversing an exponent.
       <a href="../linear-time-complexity#linear-time-complexity"><- Quadratic Time Complexity</a>
     </td>
     <td width="50%" align="right"> 
-      <a href="../linearithmic-time-complexity/README.md#Linearithmic-time-complexity">Linearithmic Time Complexity -></a>
+      <a href="../linearithmic-time-complexity/README.md#linearithmic-time-complexity">Linearithmic Time Complexity -></a>
     </td>
   </tr>
 </table>
