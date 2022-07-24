@@ -32,8 +32,9 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
       - [Drop Non-Dominant Terms](./src/asymptotic-runtime/big-o-notation/quadratic-time-complexity/README.md#drop-non-dominant-terms)
       - [Iteration with Offset](./src/asymptotic-runtime/big-o-notation/quadratic-time-complexity/README.md#iteration-with-offset)
       - [Two Inputs](./src/asymptotic-runtime/big-o-notation/quadratic-time-complexity/README.md#two-inputs)
-    - Polynomial Time Complexity
     - Logarithmic Time Complexity
+    - Linearithmic Time Complexity
+    - Polynomial Time Complexity
     - Exponential Time Complexity
     - FactorialTime Complexity
 - Data Structures
