@@ -14,10 +14,10 @@
   </tr>
   <tr>
     <td width="50%">
-      <a href="../linear-time-complexity#linear-time-complexity"><- Linear Time Complexity</a>
+      <a href="../linearithmic-time-complexity#linearithmic-time-complexity"><- Linearithmic Time Complexity</a>
     </td>
     <td width="50%" align="right"> 
-      <a href="../polynomial-time-complexity/README.md#polynomial-time-complexity">Polynomial Time Complexity -></a>
+      <a href="../exponential-time-complexity/README.md#exponential-time-complexity">Exponential Time Complexity -></a>
     </td>
   </tr>
 </table>
