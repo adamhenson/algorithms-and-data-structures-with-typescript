@@ -49,7 +49,7 @@ You’re going to encounter a lot of tables like this:
   </tr>
   <tr>
     <td>O(<i>n</i>)</td>
-    <td>linear</td>
+    <td><a href="./linear-time-complexity/README.md">linear</a></td>
     <td></td>
   </tr>
   <tr>
