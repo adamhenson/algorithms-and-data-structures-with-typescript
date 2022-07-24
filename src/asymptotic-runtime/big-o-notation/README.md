@@ -39,42 +39,42 @@ You’re going to encounter a lot of tables like this:
   </tr>
   <tr>
     <td>O(1)</td>
-    <td>constant</td>
+    <td><a href="./constant-time-complexity/README.md">constant</a></td>
     <td>fast</td>
   </tr>
   <tr>
-    <td>O(log n)</td>
-    <td>logarithmic</td>
+    <td>O(log <i>n</i>)</td>
+    <td><a href="./logarithmic-time-complexity/README.md">logarithmic</a></td>
     <td></td>
   </tr>
   <tr>
-    <td>O(n)</td>
+    <td>O(<i>n</i>)</td>
     <td>linear</td>
     <td></td>
   </tr>
   <tr>
-    <td>O(n * log n)</td>
-    <td>log linear</td>
+    <td>O(<i>n</i> * log <i>n</i>)</td>
+    <td><a href="./linearithmic-time-complexity/README.md">linearithmic (or log linear)</a></td>
     <td></td>
   </tr>
   <tr>
-    <td>O(n^2)</td>
-    <td>quadratic</td>
+    <td>O(<i>n</i><sup>2</sup>)</td>
+    <td><a href="./quadratic-time-complexity/README.md">quadratic</a></td>
     <td></td>
   </tr>
   <tr>
-    <td>O(n^3)</td>
+    <td>O(n<i>n</i><sup>3</sup>)</td>
     <td>cubic</td>
     <td></td>
   </tr>
   <tr>
-    <td>O(2^n)</td>
-    <td>exponential</td>
+    <td>O(2<sup><i>n</i></sup>)</td>
+    <td><a href="./exponential-time-complexity/README.md">exponential</a></td>
     <td></td>
   </tr>
   <tr>
-    <td>O(n!)</td>
-    <td>factorial</td>
+    <td>O(<i>n</i>!)</td>
+    <td><a href="./factorial-time-complexity/README.md">factorial</a></td>
     <td>slow</td>
   </tr>
 </table>
