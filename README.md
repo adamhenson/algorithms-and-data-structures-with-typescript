@@ -37,7 +37,7 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
     - [Linearithmic Time Complexity](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#linearithmic-time-complexity)
       - [Example: Merge Sort](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#example-merge-sort)
       - [Difference Between Logarithmic and Linearithmic Algorithms](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#difference-between-logarithmic-and-linearithmic-algorithms)
-    - Polynomial Time Complexity
+    - [Polynomial Time Complexity](./src/asymptotic-runtime/big-o-notation/polynomial-time-complexity/README.md#polynomial-time-complexity)
     - Exponential Time Complexity
     - FactorialTime Complexity
 - Data Structures
