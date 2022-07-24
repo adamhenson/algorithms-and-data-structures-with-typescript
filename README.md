@@ -40,7 +40,10 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
     - [Polynomial Time Complexity](./src/asymptotic-runtime/big-o-notation/polynomial-time-complexity/README.md#polynomial-time-complexity)
     - [Exponential Time Complexity](./src/asymptotic-runtime/big-o-notation/exponential-time-complexity/README.md#exponential-time-complexity)
       - [Example: Power Set](./src/asymptotic-runtime/big-o-notation/exponential-time-complexity/README.md#example-power-set)
-    - Factorial Time Complexity
+    - [Factorial Time Complexity](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#factorial-time-complexity)
+      - [NP-Complete Problems](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#np-complete-problems)
+      - [tl;dr](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#tldr)
+      - [Example](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#example)
 - Data Structures
   - Difference between Linear and Non-linear Data Structures
   - Linear Data Structures
