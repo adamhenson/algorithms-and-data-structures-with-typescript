@@ -63,7 +63,7 @@ You’re going to encounter a lot of tables like this:
     <td></td>
   </tr>
   <tr>
-    <td>O(n<i>n</i><sup>3</sup>)</td>
+    <td>O(<i>n</i><sup>3</sup>)</td>
     <td>cubic</td>
     <td></td>
   </tr>
