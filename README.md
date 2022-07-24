@@ -34,7 +34,9 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
       - [Two Inputs](./src/asymptotic-runtime/big-o-notation/quadratic-time-complexity/README.md#two-inputs)
     - [Logarithmic Time Complexity](./src/asymptotic-runtime/big-o-notation/logarithmic-time-complexity/README.md#logarithmic-time-complexity)
       - [Example: Binary Tree Search](./src/asymptotic-runtime/big-o-notation/logarithmic-time-complexity/README.md#example-binary-search)
-    - Linearithmic Time Complexity
+    - [Linearithmic Time Complexity](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#linearithmic-time-complexity)
+      - [Example: Merge Sort](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#example-merge-sort)
+      - [Difference Between Logarithmic and Linearithmic Algorithms](./src/asymptotic-runtime/big-o-notation/linearithmic-time-complexity/README.md#difference-between-logarithmic-and-linearithmic-algorithms)
     - Polynomial Time Complexity
     - Exponential Time Complexity
     - FactorialTime Complexity
