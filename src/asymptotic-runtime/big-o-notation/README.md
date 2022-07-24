@@ -53,7 +53,7 @@ You’re going to encounter a lot of tables like this:
     <td></td>
   </tr>
   <tr>
-    <td>O(<i>n</i> * log <i>n</i>)</td>
+    <td>O(<i>n</i> log <i>n</i>)</td>
     <td><a href="./linearithmic-time-complexity/README.md">linearithmic (or log linear)</a></td>
     <td></td>
   </tr>
