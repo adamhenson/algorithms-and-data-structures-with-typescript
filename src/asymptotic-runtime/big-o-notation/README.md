@@ -10,6 +10,8 @@ In computer science, an order is a mathematical classification for algorithms. W
 
 You will see Big O referred to as asymptotic runtime, or asymptotic computational complexity. This is a fancy way of describing the limits of a function.
 
+<img alt="Big O Comparison" src="./big-o-comparison.png" />
+
 ## How Does Big O Notation Work?
 
 Big O notation is used to define the worst-case scenario for a given algorithm.
