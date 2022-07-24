@@ -70,7 +70,11 @@ By dividing our input with each iteration, we are inversing an exponent.
 <table>
   <tr>
     <td colspan="2">
-      Content from this page was sourced from <a href="https://jarednielsen.com/big-o-logarithmic-time-complexity/">Big O Logarithmic Time Complexity | jarednielsen.com</a> and [Big O Notation — Time Complexity in Javascript | medium.com](https://medium.com/analytics-vidhya/big-o-notation-time-complexity-in-javascript-f97f356de2c4) 
+      Content from this page was sourced from:
+      <ul>
+        <li><a href="https://jarednielsen.com/big-o-logarithmic-time-complexity/">Big O Logarithmic Time Complexity | jarednielsen.com</a></li>
+        <li><a href="https://medium.com/analytics-vidhya/big-o-notation-time-complexity-in-javascript-f97f356de2c4">Big O Notation — Time Complexity in Javascript | Analytics Vidhya by Esakkimuthu E</a></li>
+      </ul> 
     </td>
   </tr>
   <tr>

@@ -33,7 +33,7 @@ function mergeSort<Type>(unsortedArray: Type[]): Type[] {
 Merge sort uses a "divide-and-conquer" strategy to sort the given array, Divide the array recursively until the elements are two or less. and it sorts the divided array recursively.
 
 ```typescript
-function merge(left, right) {
+function merge<Type>(left: Type[], right: Type[]): Type[] {
   const resultArray = [];
   let leftIndex = 0;
   let rightIndex = 0;
