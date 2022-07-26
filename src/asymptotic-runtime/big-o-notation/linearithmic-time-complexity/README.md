@@ -2,9 +2,9 @@
 
 **Syntax:** O(_n_ log _n_)
 
-> It is a combination of Linear and Logarithmic Time Complexities. The time taken by this is slightly less than the linear time complexity but not as slow as the quadratic time complexity.
+> It is a combination of Linear and Logarithmic Time Complexities. The time taken by this is slightly more than linear time complexity but not as slow as the quadratic time complexity.
 
-Heap Sort and Quick Sort are some examples of Linearithmic Time Complexity. A linearithmic algorithm is sometimes referred to "log-linear".
+Merge Sort, Heap Sort and Quick Sort are some examples of Linearithmic Time Complexity. A linearithmic algorithm is sometimes referred to "log-linear".
 
 ## Example: Merge Sort
 

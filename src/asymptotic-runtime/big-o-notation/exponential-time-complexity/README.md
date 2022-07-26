@@ -75,7 +75,7 @@ powerset('abcde') // , a, b, ab, c, ac, bc, abc, d, ad, bd, abd, cd, acd, bcd...
   </tr>
   <tr>
     <td width="50%">
-      <a href="../polynomial-time-complexity#polynomial-time-complexity"><- Polynomial Time Complexity</a>
+      <a href="../polynomial-time-complexity/README.md#polynomial-time-complexity"><- Polynomial Time Complexity</a>
     </td>
     <td width="50%" align="right"> 
       <a href="../factorial-time-complexity/README.md#factorial-time-complexity">Factorial Time Complexity -></a>
