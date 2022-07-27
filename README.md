@@ -44,14 +44,14 @@ This is a work in progress. All items that aren't linked are coming soon. PRs ar
       - [NP-Complete Problems](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#np-complete-problems)
       - [tl;dr](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#tldr)
       - [Example](./src/asymptotic-runtime/big-o-notation/factorial-time-complexity/README.md#example)
-- Data Structures
-  - Difference between Linear and Non-linear Data Structures
-  - Linear Data Structures
+- [Data Structures](./src/data-structures/README.md#data-structures)
+  - [Difference between Linear and Non-linear Data Structures](./src/data-structures/README.md#difference-between-linear-and-non-linear-data-structures)
+  - [Linear Data Structures](./src/data-structures/linear-data-structures/README.md#linear-data-structures)
     - Array
     - [Linked List (Singly Linked List)](./src/data-structures/linear-data-structures/singly-linked-list/README.md)
-    - Queue
     - [Stack](./src/data-structures/linear-data-structures/stack/README.md)
-  - Non-Linear Data Structures
+    - [Queue](./src/data-structures/linear-data-structures/queue/README.md#queue)
+  - [Non-Linear Data Structures](./src/data-structures/non-linear-data-structures/README.md#non-linear-data-structures)
     - Heap
     - Sets and Posets
     - Hash Table
